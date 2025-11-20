@@ -1,0 +1,16 @@
+# Настройки линтеров и type checker
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 79
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+
+

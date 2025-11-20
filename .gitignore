@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Секреты
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+venv/
+.venv
+env/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# Временные файлы, созданные при тестировании)
+result.jpg
+
+# Персональные настройки
+.vscode/
+
+# mypy cache
+.mypy_cache/
